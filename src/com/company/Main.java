@@ -13,9 +13,10 @@ public class Main {
         //InputStream inputStream = new URL("https://google.com").openStream();
         /*File file = new File("D:\\Humster.txt");
         InputStream inputStream = new FileInputStream(file);*/
+        /*Scanner scanner = new Scanner(System.in);*/
+
         InputStreamReader reader = new InputStreamReader(System.in);
         OutputStream output = new FileOutputStream("D:\\test.txt");
-        /*Scanner scanner = new Scanner(System.in);*/
         System.out.println("Input text, if you type enter, text will be saved in the file");
 
         char symb;
